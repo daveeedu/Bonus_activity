@@ -1,6 +1,6 @@
 body{
     border: 0;
-    background: rgb(221, 227, 228);
+    box-sizing: border-box;
 }
 .heading {
     display: flex;
@@ -44,13 +44,19 @@ body{
     padding: 0 50px 0  0;
     font-size: 18px;
 }
-
+.form-section {
+    box-shadow: 2px 2px 2px 2px rgb(204, 218, 218);
+    width: 45%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 8px;  
+    
+}
 .form-section .form-box{
-    
-    width: 50%;
-    padding-left: 400px;
-    
-
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .form-box h1 {
     font-size: 45px;
@@ -82,13 +88,13 @@ body{
 .button-section {
     display: flex;
     justify-content: flex-end;
-    padding-right: 300px;
+    padding-right: 200px;
     padding-top: 30px;
 }
 .button-section button {
     background: rgb(2, 92, 177);
-    padding: 8px 40px;
-    border-radius: 10px;
+    padding: 7px 60px;
+    border-radius: 8px;
     border: none;
     color: white;
 }
