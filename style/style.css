@@ -1,0 +1,94 @@
+body{
+    border: 0;
+    background: rgb(221, 227, 228);
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.sec {
+    display: flex;
+    gap: 3%;
+    justify-content: space-between;
+    width: 100%;
+}
+.Img {
+    width: 80%;
+    padding: 30px 0 30px 170px;
+}
+.text {
+    width: 100%;
+    padding: 30px 200px 30px 0;
+    text-align: center;
+    
+}
+.line {
+    width: 35px;
+    height: 1px;
+    background: rgb(228, 163, 84);
+    
+}
+.disc {
+    height: 6px;
+}
+.content_1 {
+    display: flex;
+    text-align: left;
+    padding: 50px 50px 0  0;
+    font-size: 18px;
+}
+.content_2 {
+    display: flex;
+    text-align: left;
+    padding: 0 50px 0  0;
+    font-size: 18px;
+}
+
+.form-section .form-box{
+    
+    width: 50%;
+    padding-left: 400px;
+    
+
+}
+.form-box h1 {
+    font-size: 45px;
+}
+.form-row .input-box {
+    width: 60%;
+}
+.form-row .input-box label {
+    font-weight: normal;
+   
+}
+.form-row {
+    padding-bottom: 20px;
+}
+.form-row .input-box input[type="text"] {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+.form-row .textarea-section {
+    width: 100%;
+}
+.form-row .textarea-section textarea {
+    width: 64%;
+    height: 80px;
+    border-radius: 4px;
+}
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 300px;
+    padding-top: 30px;
+}
+.button-section button {
+    background: rgb(2, 92, 177);
+    padding: 8px 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
